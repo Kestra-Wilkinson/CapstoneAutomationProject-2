@@ -4,4 +4,12 @@ import STLOcarinaHomePage from '../pageobjects/STL Ocarina HomePage.js';
 
 
 
-describe('STL Ocarina ')
+describe('STL Ocarina Website Test',() =>{
+
+it('should navigate to the website',async () =>{
+await browser.url('https://www.stlocarina.com/');
+
+
+
+});
+});
